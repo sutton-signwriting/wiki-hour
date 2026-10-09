@@ -24,7 +24,7 @@ a sign. **SignWriting in Unicode (SWU)** is an experimental encoding design, 100
 compatible with FSW. SWU is not part of the Unicode standard. Both are incompatible
 with the official SignWriting design introduced in Unicode 8.
 
-- [Formal SignWriting specification](https://formal.signwriting.org/).
+- [Formal SignWriting technical papers](https://github.com/sutton-signwriting/formal-signwriting).
 - [Formal SignWriting archival record](https://doi.org/10.5281/zenodo.20074767).
 - [FSW/SWU developer guidance](https://github.com/sutton-signwriting/unicode-and-signwriting/blob/main/entries/developer-notes/essay.md).
 - [Facial Orthography Boundary](https://github.com/sutton-signwriting/unicode-and-signwriting/blob/main/entries/facial-orthography-boundary/essay.md): Steve's assessment of authored facial-data loss in the official model.

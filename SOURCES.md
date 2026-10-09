@@ -12,7 +12,7 @@ the writing model, development tools, historical context, and proposed hosting r
 
 ## The text model and preservation
 
-- [Formal SignWriting](https://formal.signwriting.org/): specification of the working text model.
+- [Formal SignWriting](https://github.com/sutton-signwriting/formal-signwriting): technical papers on the text model and its implementation.
 - [Formal SignWriting archive](https://doi.org/10.5281/zenodo.20074767): citable publication record.
 - [Developer Notes](https://github.com/sutton-signwriting/unicode-and-signwriting/blob/main/entries/developer-notes/essay.md): FSW/SWU guidance and compatibility boundaries.
 - [Facial Orthography Boundary](https://github.com/sutton-signwriting/unicode-and-signwriting/blob/main/entries/facial-orthography-boundary/essay.md): Steve's authored-data preservation assessment of the official Unicode facial model.

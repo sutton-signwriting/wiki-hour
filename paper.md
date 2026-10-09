@@ -93,7 +93,7 @@ introduced in Unicode 8.
 FSW and SWU preserve the selected production symbols and their positions. Their
 correspondence gives compatible applications two representations of the same
 composition. Canonical encoding leaves room for different linguistic spellings and
-readers' judgments. See [Formal SignWriting](https://formal.signwriting.org/) and
+readers' judgments. See [Formal SignWriting](https://github.com/sutton-signwriting/formal-signwriting) and
 the [Developer Notes](https://github.com/sutton-signwriting/unicode-and-signwriting/blob/main/entries/developer-notes/essay.md).
 
 Steve's [Facial Orthography Boundary](https://github.com/sutton-signwriting/unicode-and-signwriting/blob/main/entries/facial-orthography-boundary/essay.md)
