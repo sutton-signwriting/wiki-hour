@@ -74,6 +74,7 @@ try {
       await navigate(pathToFileURL(path.join(root, hasPresenter ? 'exports/slides-presenter.html' : 'exports/slides-standalone.html')).href);
       assert.equal(await evaluate('document.querySelectorAll("#jump option").length'), 12);
       assert.equal(await evaluate('document.querySelector("#previous").disabled'), true);
+      assert.equal(await evaluate('getComputedStyle(document.querySelector(".print-links")).display'), 'none');
       if (hasPresenter) assert.equal(await evaluate('getComputedStyle(document.querySelector(".speaker-notes")).display'), 'none');
       for (let index = 0; index < 12; index++) {
         await evaluate(`document.querySelector('#jump').value='${index}';document.querySelector('#jump').dispatchEvent(new Event('change'))`);
@@ -98,6 +99,8 @@ try {
       assert.equal(await evaluate('location.hash'), '#slide-12');
       await call('Emulation.setEmulatedMedia', { media:'print' });
       assert.ok(await evaluate('[...document.querySelectorAll(".speaker-notes")].every(n=>getComputedStyle(n).display==="none")'));
+      assert.notEqual(await evaluate('getComputedStyle(document.querySelector(".print-links")).display'), 'none');
+      assert.ok(await evaluate('[...document.querySelectorAll(".print-links a")].every(a=>a.textContent===a.getAttribute("href"))'));
       await call('Emulation.setEmulatedMedia', { media:'' });
       await navigate(pathToFileURL(path.join(root, 'exports/slides-audience.html')).href + '#slide-9');
       assert.equal(await evaluate('document.querySelectorAll("aside").length'),0);

@@ -37,7 +37,8 @@ npm run build
 ```
 
 This creates the static website in `dist/` and self-contained audience decks in
-`exports/`. Following external links and using the hosted SignMaker demo require
+`exports/`. Printing the deck adds a final reference page with link labels and
+full, clickable URLs. Following external links and using the hosted SignMaker demo require
 internet access.
 
 Generate downloadable PDFs with Chrome or Chromium:

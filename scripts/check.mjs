@@ -32,6 +32,13 @@ for (const filename of files.filter(name => name.endsWith('.html'))) {
 const slides = await readFile(path.join(dist, 'slides.html'), 'utf8');
 assert.equal((slides.match(/class="slide(?: title-slide)?"/g) || []).length, 12);
 assert.equal((slides.match(/class="val-question"/g) || []).length, 5);
+const [presentation, references] = slides.split('<section class="print-links"');
+assert.ok(references, 'Missing printed references page.');
+const externalUrls = html => new Set([...html.matchAll(/<a\b[^>]*href="(https?:[^"\s]+)"/g)].map(match => match[1]));
+assert.deepEqual(externalUrls(references), externalUrls(presentation), 'Printed references must cover all slide URLs.');
+for (const [, href, label] of references.matchAll(/<a href="([^"]+)">([^<]+)<\/a>/g)) {
+  assert.equal(label, href, 'Printed URL text must match its destination.');
+}
 assert.ok(!slides.includes('Speaker notes'), 'Public deck has presenter controls.');
 const audience = await readFile(path.join(dist, 'downloads/slides-standalone.html'), 'utf8');
 assert.ok(!audience.includes('<aside'), 'Audience download contains speaker notes.');
