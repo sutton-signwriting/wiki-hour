@@ -23,7 +23,7 @@ explains the writing model, current software, and possible Wikimedia integration
 | 04–07 | A shared script for different languages and communities | Val and Steve |
 | 07–11 | Symbols and their two-dimensional arrangement | Steve |
 | 11–15 | Literacy, reader judgment, and orthography | Val and Steve |
-| 15–19 | Editorial direction and community review | Steve |
+| 15–19 | Committee approval or community use and consensus | Steve |
 | 19–23 | Earlier tools and Steve's role as tool provider today | Val and Steve |
 | 23–26 | FSW, SWU, and preserving the composition | Steve |
 | 26–30 | Development tools and the research ecosystem | Steve |

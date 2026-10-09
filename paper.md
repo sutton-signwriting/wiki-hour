@@ -44,17 +44,27 @@ forms. Conventions take time to grow. Language, regional variety, and the purpos
 a text matter to judgments about writing. Val's perspective on literacy leaves room
 for learning at different stages and for the value of knowledge gained along the way.
 
-There are two possible routes to developing a body of reviewed writing. An editor
-and a small team can select, refine, and publish forms. A broader community can
-contribute many forms, followed by readers comparing, rating, and categorizing them.
-The routes can work together: community contributions provide material, and editorial
-work makes selected examples useful for publication and teaching.
+There are two distinct routes to deciding which written forms become accepted and
+remembered. In a committee-led route, a small group decides what counts as good
+writing and controls which signs and spellings enter an approved collection. A
+committee member's objection can keep a sign or spelling out of that collection,
+limiting its availability for others to use and remember. In a community-led route,
+users contribute, use, discuss, and compare forms. The community establishes its
+preferences through majority agreement or another consensus process it chooses.
+A spelling can also become the statistically predominant form through repeated
+use within that community. Its standing comes from the community's practice
+or collective decision; it does not require approval from an individual expert
+or a small committee.
 
-Good examples show what works. An original form, its correction, and an explanation
-show what to avoid and why. Over time, active readers and writers can build a
-continuing resource for their language. A useful review records the language and
-variety, intended reading, author and source, revision, and reader's explanation.
-Such collections can support lessons and, where reuse is agreed, research datasets.
+The choice of route affects what survives. A committee's collection preserves the
+forms it approves. A community record can retain competing spellings, evidence of
+their use, comments, and changing support, including forms an individual expert
+dislikes. Users can see which spellings are commonly used, where opinions differ,
+and how preferences develop over time. Common forms, disputed forms, proposed
+corrections, and users' explanations can become a continuing resource for teaching
+and research. Recording the language and variety, intended reading, author and
+source, and revision history keeps those examples in context. Where reuse is
+agreed, the collection can also support research datasets.
 
 ## Earlier tools and Steve's role today
 
@@ -131,8 +141,8 @@ applications, or contribution workflows.
 A proposed Incubator redesign can use the current browser libraries for display and
 editing without depending on the old Cloud VPS servers. The integration would need
 to connect composed text to Wikimedia's editing, publication, and revision workflows.
-Articles could use reviewed forms while a related writing collection retains
-alternatives, corrections, and reader explanations.
+Articles could use community-preferred forms while a related writing collection
+retains alternatives, evidence of use, discussion, and proposed corrections.
 
 For suitable companion tools that need hosted processing, Steve recommends
 [Toolforge](https://wikitech.wikimedia.org/wiki/Portal:Toolforge/About_Toolforge).

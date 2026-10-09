@@ -14,8 +14,10 @@ Presentation draft 0.5 · Sources checked 8 October 2026.
 ## The writing model
 
 The writer chooses symbols and their two-dimensional arrangement. FSW and SWU
-preserve that composition. Encoding rules define well-formed text; experienced
-readers judge writing quality and develop orthography through use.
+preserve that composition. Encoding rules define well-formed text. Committees can
+approve or exclude spellings; communities can establish preferences through use
+or their own agreement process. A spelling can become predominant through community
+use without an expert's approval.
 
 **Formal SignWriting in ASCII (FSW)** is the canonical encoding string for spelling
 a sign. **SignWriting in Unicode (SWU)** is an experimental encoding design, 100%
@@ -64,8 +66,8 @@ The SignMaker 2 web implementation is credited to Amit Moryossef.
 
 These projects have independent maintainers and tool-specific input formats.
 Automatic metrics compare particular features; readers evaluate meaning and writing
-quality in the relevant language and context. Reviewed examples and explained
-corrections can support teaching and research when their reuse is agreed.
+quality in the relevant language and context. Usage records, community discussion,
+and proposed corrections can support teaching and research when their reuse is agreed.
 
 Steve's forthcoming WLL article, *Plane-Based Writing: Sutton SignWriting and the
 Organizational Axis in Writing-System Typology*, asks how a script's written unit
