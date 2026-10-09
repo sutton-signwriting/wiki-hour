@@ -1,0 +1,7 @@
+exports/
+private/
+docker-compose.yml
+.DS_Store
+*.swp
+node_modules/
+dist/

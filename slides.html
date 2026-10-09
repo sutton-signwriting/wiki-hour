@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Why Written Sign Language Matters — Writing, Readers, and Tools</title>
+  <link rel="stylesheet" href="assets/slides.css">
+  <script src="assets/slides.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#slides">Skip to slides</a>
+  <nav id="controls" aria-label="Presentation controls" hidden>
+    <button id="previous" type="button">← Previous</button>
+    <label>Slide <select id="jump" aria-label="Choose slide"></select></label>
+    <button id="next" type="button">Next →</button>
+    <label><input type="checkbox" id="all-slides"> All slides</label>
+    <button id="print" type="button">Print / Save PDF</button>
+    <span id="progress" role="status" aria-live="polite"></span>
+  </nav>
+  <main id="slides" tabindex="-1">
+    <section class="slide title-slide" id="slide-1" aria-labelledby="title-1">
+      <p class="eyebrow">Wiki Hour · Workshop 1 · Presentation draft 0.5</p>
+      <h1 id="title-1" tabindex="-1">Why written<br>sign language matters</h1>
+      <p class="subtitle">Writing, readers, and tools</p>
+      <p>Valerie Sutton &amp; Steve Slevinski</p>
+      <p class="val-question"><strong>Val:</strong> Why does writing directly in a signed language matter?</p>
+      <p class="small">40 minutes together · 20 minutes for your questions</p>
+    </section>
+    <section class="slide" id="slide-2" aria-labelledby="title-2">
+      <p class="eyebrow">01 · People and language</p>
+      <h2 id="title-2" tabindex="-1">A script for<br>different languages.</h2>
+      <p class="val-question"><strong>Val:</strong> What does a shared script mean for different sign-language communities?</p>
+      <div class="cards"><article><h3>Signed languages</h3><p>Different languages, communities, and regional varieties.</p></article><article><h3>SignWriting</h3><p>A shared writing system for writing those languages.</p></article><article><h3>International Sign</h3><p>Communication across language backgrounds.</p></article></div>
+      <p class="takeaway">A shared script leaves room for different languages and local writing.</p>
+      <p class="source"><a href="https://www.signwriting.org/about/what/what02.html">About SignWriting</a> · <a href="https://www.signwriting.org/symposium/presentation0097.html">Val’s seven history answers</a></p>
+    </section>
+    <section class="slide" id="slide-3" aria-labelledby="title-3">
+      <p class="eyebrow">02 · The writing idea</p>
+      <h2 id="title-3" tabindex="-1">The writer composes<br>in two dimensions.</h2>
+      <div class="pipeline" aria-label="From symbols to authored writing to reader judgment"><div><strong>Valerie’s symbols</strong><br>A conventional<br>symbol inventory</div><span aria-hidden="true">→</span><div><strong>The writer’s choices</strong><br>Symbols + their<br>spatial arrangement</div><span aria-hidden="true">→</span><div><strong>The reader’s judgment</strong><br>Read, compare,<br>discuss, revise</div></div>
+      <p class="takeaway">Spatial composition is part of the spelling.</p>
+      <p class="small">A signbox is a composed field. Its symbols and their relationships belong to the writing.</p>
+      <p class="source"><a href="https://formal.signwriting.org/">Formal SignWriting</a> · <a href="https://steveslevinski.me/#section/publications">Writing-system research</a></p>
+    </section>
+    <section class="slide" id="slide-4" aria-labelledby="title-4">
+      <p class="eyebrow">03 · Orthography</p>
+      <h2 id="title-4" tabindex="-1">Orthography develops<br>through use.</h2>
+      <p class="val-question"><strong>Val:</strong> How does literacy develop, and what can even a little writing knowledge offer?</p>
+      <div class="cards"><article><h3>Encoding rules</h3><p>Define well-formed text that software can process.</p></article><article><h3>Readers and writers</h3><p>Develop conventions for clear, useful writing.</p></article></div>
+      <p class="takeaway">Well-formed text can still be unclear or nonsense. Experienced readers judge its quality.</p>
+    </section>
+    <section class="slide" id="slide-5" aria-labelledby="title-5">
+      <p class="eyebrow">04 · Growing orthography</p>
+      <h2 id="title-5" tabindex="-1">Two routes to<br>developing orthography.</h2>
+      <div class="cards"><article><h3>Editorial direction</h3><p>An editor and a small team select, refine, and publish writing.</p></article><article><h3>Community review</h3><p>Writers contribute forms. Readers compare, rate, and categorize them.</p></article></div>
+      <p class="takeaway">Examples and explained corrections become a continuing resource for teaching and research.</p>
+    </section>
+    <section class="slide" id="slide-6" aria-labelledby="title-6">
+      <p class="eyebrow">05 · From earlier tools to reusable tools</p>
+      <h2 id="title-6" tabindex="-1">Earlier tools.<br>A different future.</h2>
+      <p class="val-question"><strong>Val:</strong> What stays with you from the 2016 San Diego Wikimedia conference?</p>
+      <div class="cards"><article><h3>Earlier work</h3><p>SignPuddle dictionaries and documents.<br>Custom Incubator rendering.<br>Separate Cloud VPS servers.</p></article><article><h3>My work today</h3><p>FSW/SWU libraries.<br>Browser components and SignMaker.<br>Tools other developers can integrate.</p></article></div>
+      <p class="small">The earlier SignWriting servers went down. The Incubator integration needs redesign.</p>
+      <p class="source"><a href="https://github.com/sutton-signwriting/unicode-and-signwriting/blob/main/entries/wikimedia-brief/essay.md">Wikimedia history and technical context</a></p>
+    </section>
+    <section class="slide" id="slide-7" aria-labelledby="title-7">
+      <p class="eyebrow">06 · Two compatible encodings</p>
+      <h2 id="title-7" tabindex="-1">Two encodings.<br>The same composition.</h2>
+      <div class="cards"><article><h3>FSW</h3><p><strong>Formal SignWriting in ASCII</strong><br>The canonical encoding string for spelling a sign.</p></article><article><h3>SWU</h3><p><strong>SignWriting in Unicode</strong><br>An experimental encoding design, 100% compatible with FSW.</p></article></div>
+      <p class="boundary">SWU is not part of the Unicode standard.<br>Both FSW and SWU are incompatible with the official SignWriting design introduced in Unicode 8.</p>
+      <p class="source"><a href="https://github.com/sutton-signwriting/unicode-and-signwriting/blob/main/entries/developer-notes/essay.md">FSW/SWU guidance</a> · <a href="https://github.com/sutton-signwriting/unicode-and-signwriting/blob/main/entries/facial-orthography-boundary/essay.md">Authored facial writing</a></p>
+    </section>
+    <section class="slide" id="slide-8" aria-labelledby="title-8">
+      <p class="eyebrow">07 · A growing ecosystem</p>
+      <h2 id="title-8" tabindex="-1">Reusable tools.<br>A growing ecosystem.</h2>
+      <div class="cards"><article><h3>Tools I supply</h3><p>JavaScript, Python, PHP.<br>Parse, convert, search, render.<br>Web components and SignMaker.</p></article><article><h3>Community and research</h3><p>Structured data and tokenization.<br>Translation datasets.<br>Machine-learning evaluation.</p></article></div>
+      <p class="takeaway">Readers’ reviewed writing can support teaching, research, and AI.</p>
+      <p class="source"><a href="https://github.com/sutton-signwriting">Sutton packages</a> · <a href="https://github.com/sign-language-processing/signwriting">Processing tools</a> · <a href="https://arxiv.org/abs/2309.11566">SignBank+ research</a> · <a href="https://github.com/sign-language-processing/signwriting-evaluation">Evaluation</a></p>
+    </section>
+    <section class="slide" id="slide-9" aria-labelledby="title-9">
+      <p class="eyebrow">08 · SignMaker today</p>
+      <h2 id="title-9" tabindex="-1">SignMaker exchanges<br>editable writing.</h2>
+      <div class="exchange" role="img" aria-label="An application sends FSW or SWU to SignMaker, the writer edits the spatial composition, and SignMaker returns both encodings on Save"><div><strong>Your application</strong><p>Send FSW / SWU</p></div><div class="exchange-arrows" aria-hidden="true">⇄</div><div><strong>SignMaker</strong><p>Compose → Edit → Save</p></div></div>
+      <p>The application loads FSW or SWU.<br>The writer edits. Save returns both encodings.</p>
+      <p class="source"><a href="https://www.sutton-signwriting.io/signmaker/">Open SignMaker</a> · <a href="https://www.sutton-signwriting.io/signmaker/demo.html">Open the messaging demo</a> · <a href="https://github.com/sutton-signwriting/signmaker#readme">Integration documentation</a></p>
+    </section>
+    <section class="slide" id="slide-10" aria-labelledby="title-10">
+      <p class="eyebrow">09 · Proposed Wikimedia direction</p>
+      <h2 id="title-10" tabindex="-1">A redesigned route<br>for Wikimedia.</h2>
+      <div class="cards"><article><h3>Browser integration</h3><p>FSW/SWU display and editing.<br>No dependency on the old VPS servers.</p></article><article><h3>Toolforge</h3><p>My recommendation for companion tools that need hosted processing.</p></article></div>
+      <p class="takeaway">I supply the SignWriting tools.<br>Wikimedia developers build and maintain their integration.</p>
+      <p class="source"><a href="https://wikitech.wikimedia.org/wiki/Portal:Toolforge/About_Toolforge">Toolforge: managed hosting</a></p>
+    </section>
+    <section class="slide" id="slide-11" aria-labelledby="title-11">
+      <p class="eyebrow">10 · A shared foundation</p>
+      <h2 id="title-11" tabindex="-1">Writers compose.<br>Readers judge.<br>Tools preserve.</h2>
+      <p class="val-question"><strong>Val:</strong> What do you hope Wikimedia communities will make possible next?</p>
+      <p>A foundation for writing, teaching, research,<br>and future Wikimedia work.</p>
+      <p class="source"><a href="https://www.sutton-signwriting.io/signmaker/">Try SignMaker</a> · <a href="https://formal.signwriting.org/">Explore Formal SignWriting</a> · <a href="https://office.signwriting.org/">People and publications</a> · <a href="https://www.signwriting.org/symposium/presentation0097.html">More from Val</a></p>
+    </section>
+    <section class="slide" id="slide-12" aria-labelledby="title-12">
+      <p class="eyebrow">Your questions · 20 minutes</p>
+      <h2 id="title-12" tabindex="-1">Writing, orthography,<br>and the way ahead.</h2>
+      <div class="cards"><article><h3>For Val</h3><p>Writing, learning, history,<br>and the writer’s choices.</p></article><article><h3>For Steve</h3><p>Encodings, tools, review workflows,<br>and possible integrations.</p></article></div>
+    </section>
+  </main>
+  <noscript><p class="small">All slides are shown. Printing and source links work without JavaScript.</p></noscript>
+</body>
+</html>

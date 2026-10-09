@@ -1,0 +1,15 @@
+{
+  "name": "wiki-hour",
+  "version": "0.5.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "export:pdf": "node scripts/export-pdfs.mjs",
+    "check": "node scripts/check.mjs",
+    "check:browser": "node scripts/browser-review.mjs"
+  },
+  "devDependencies": {
+    "marked": "18.0.6"
+  }
+}
