@@ -42,13 +42,14 @@ with the official SignWriting design introduced in Unicode 8.
 
 Each project's documentation carries its installation and release details.
 
-## SignMaker's application exchange
+## Using SignMaker in another application
 
-The host application sends FSW or SWU to an embedded SignMaker editor. The writer
-edits the composition. Save returns both encodings for the host to retain.
+Load a sign, edit it, and save it back. Another application can embed SignMaker,
+load a written sign using FSW or SWU, and receive the updated writing in both
+encodings when the writer saves.
 
 - [Online editor](https://www.sutton-signwriting.io/signmaker/).
-- [Messaging demo](https://www.sutton-signwriting.io/signmaker/demo.html).
+- [Application demo](https://www.sutton-signwriting.io/signmaker/demo.html).
 - [Integration protocol and source](https://github.com/sutton-signwriting/signmaker#readme).
 
 The SignMaker 2 web implementation is credited to Amit Moryossef.

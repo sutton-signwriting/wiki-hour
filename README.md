@@ -10,6 +10,9 @@ Workshop 1 is scheduled for 10 October 2026. The organizers provide the time and
 joining details. The proposed programme is forty minutes of presentation and
 twenty minutes of audience questions.
 
+The SignMaker demonstration shows how to use the editor in another application:
+load a sign, edit it, and save it back.
+
 Publication target: **https://www.sutton-signwriting.io/wiki-hour/**
 
 Repository: **https://github.com/sutton-signwriting/wiki-hour**

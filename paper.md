@@ -112,16 +112,17 @@ Preserved compositions and explained reader judgments give this work a richer
 resource. Automatic measures compare particular features; experienced readers
 evaluate meaning and writing quality in the relevant language and context.
 
-## SignMaker exchanges editable writing
+## Using SignMaker in another application
 
 [SignMaker](https://www.sutton-signwriting.io/signmaker/) provides a visual editor
-for choosing and arranging symbols. An application can embed the editor and send it
-FSW or SWU. The writer edits the composition; Save returns both encodings to the host.
-The application can then retain the editable writing.
+for choosing and arranging symbols. Another application can embed the editor and
+load a written sign using FSW or SWU. The writer edits the composition and saves it
+back to that application. SignMaker returns the updated writing in both encodings.
 
-The [messaging demo](https://www.sutton-signwriting.io/signmaker/demo.html)
+The [application demo](https://www.sutton-signwriting.io/signmaker/demo.html)
 and [integration documentation](https://github.com/sutton-signwriting/signmaker#readme)
-show that exchange. The SignMaker 2 web implementation is credited to Amit Moryossef.
+show how to load a sign, edit it, and save it back. The SignMaker 2 web implementation
+is credited to Amit Moryossef.
 This provides a practical interface for developers building dictionaries, teaching
 applications, or contribution workflows.
 

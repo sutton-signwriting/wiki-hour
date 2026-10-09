@@ -27,7 +27,7 @@ explains the writing model, current software, and possible Wikimedia integration
 | 19–23 | Earlier tools and Steve's role as tool provider today | Val and Steve |
 | 23–26 | FSW, SWU, and preserving the composition | Steve |
 | 26–30 | Development tools and the research ecosystem | Steve |
-| 30–34 | SignMaker exchanging editable writing with an application | Steve |
+| 30–34 | Using SignMaker in another application: load, edit, and save | Steve |
 | 34–38 | A redesigned Wikimedia route and Toolforge | Steve |
 | 38–40 | Writers compose, readers judge, tools preserve | Val and Steve |
 | 40–60 | Audience questions and discussion | Val and Steve |

@@ -24,7 +24,7 @@ The compatibility assessment above is Steve's technical argument.
 ## Development and research
 
 - [Sutton SignWriting projects](https://github.com/sutton-signwriting): core, rendering, component, and editor repositories.
-- [SignMaker](https://github.com/sutton-signwriting/signmaker#readme): the editor, iframe exchange protocol, and contributor credits.
+- [SignMaker](https://github.com/sutton-signwriting/signmaker#readme): the editor, embedding and messaging documentation, and contributor credits.
 - [SignWriting utilities](https://github.com/sign-language-processing/signwriting): structured data, conversion, tokenization, and rendering.
 - [SignWriting evaluation](https://github.com/sign-language-processing/signwriting-evaluation): automatic comparisons of machine-generated writing.
 - [SignBank+](https://arxiv.org/abs/2309.11566): multilingual translation-dataset preparation using large language models.

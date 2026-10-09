@@ -79,7 +79,7 @@ await writeFile(path.join(dist, 'index.html'), shell('Written signed languages o
 <section class="intro"><h2>Writing, readers, and tools</h2>
 <p>Valerie created the symbols. Writers choose symbols and arrange them in two dimensions. Readers develop orthography through use, comparison, and correction. SignWriting software preserves that composition and gives developers a foundation for applications, research, and Wikimedia integration.</p></section>
 <div class="cards">
-  <section class="card"><h2><a href="slides.html">Presentation</a></h2><p>Spatial writing, orthography, FSW/SWU, the SignMaker exchange, and the proposed Wikimedia route.</p><a href="downloads/slides.pdf">Slide PDF</a><br><a href="downloads/slides-standalone.html" download>Offline slideshow</a></section>
+  <section class="card"><h2><a href="slides.html">Presentation</a></h2><p>Spatial writing, orthography, FSW/SWU, SignMaker in another application, and proposed Wikimedia integration.</p><a href="downloads/slides.pdf">Slide PDF</a><br><a href="downloads/slides-standalone.html" download>Offline slideshow</a></section>
   <section class="card"><h2><a href="paper.html">The argument</a></h2><p>Why the writer’s arrangement belongs to the spelling, and how readers develop a body of good writing.</p><a href="downloads/paper.pdf">Paper PDF</a></section>
   <section class="card"><h2><a href="resources.html">Tools and research</a></h2><p>Libraries, browser components, SignMaker, machine-learning research, and Toolforge documentation.</p><a href="downloads/resources.pdf">Resource guide PDF</a></section>
 </div>
